@@ -1,6 +1,7 @@
 {
     "name": "Spring One Demo",
     "description": "Welcome to Spring One. This is a JHipster microservice demo.",
+    "addons": [ "heroku-postgresql" ],
     "env": {
         "JHIPSTER_REGISTRY_URL": {
             "description": "THe address of the JHipster Registry"
