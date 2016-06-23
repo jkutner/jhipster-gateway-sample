@@ -20,6 +20,9 @@
             "url": "https://github.com/jkutner/dyno-metadata-buildpack"
         },
         {
+            "url": "https://github.com/jkutner/jhipster-cache-buildpack"
+        },
+        {
             "url": "heroku/nodejs"
         },
         {
