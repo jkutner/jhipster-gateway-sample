@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/*.war --spring.profiles.active=prod,heroku --server.port=$PORT
+web: java $JAVA_OPTS -jar target/*.war --spring.profiles.active=prod,heroku --server.port=$PORT --eureka.client.serviceUrl.defaultZone=https://admin:${JHIPSTER_PASSWORD}@spring-one-registry.herokuapp.com/eureka/
