@@ -59,5 +59,9 @@
   },
   "scripts": {
     "test": "gulp test"
+  },
+  "dependencies": {
+    "bower": "1.7.9",
+    "grunt-cli": "1.2.0"
   }
 }
