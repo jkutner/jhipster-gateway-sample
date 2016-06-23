@@ -859,6 +859,12 @@
                                     <excludeDefaultDirectories>true</excludeDefaultDirectories>
                                     <filesets>
                                         <fileset>
+                                            <directory>node_modules</directory>
+                                        </fileset>
+                                        <fileset>
+                                            <directory>.heroku/node</directory>
+                                        </fileset>
+                                        <fileset>
                                             <directory>target</directory>
                                             <excludes>
                                                 <exclude>*.war</exclude>
