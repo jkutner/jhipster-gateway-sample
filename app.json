@@ -4,7 +4,8 @@
     "addons": [ "heroku-postgresql" ],
     "env": {
         "JHIPSTER_REGISTRY_URL": {
-            "description": "The address of the JHipster Registry"
+            "description": "The address of the JHipster Registry",
+            "required": "true"
         },
         "MAVEN_CUSTOM_OPTS": {
             "description": "Options for the Maven build.",
