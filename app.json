@@ -3,8 +3,8 @@
     "description": "Welcome to Spring One. This is a JHipster microservice demo.",
     "addons": [ "heroku-postgresql" ],
     "env": {
-        "JHIPSTER_REGISTRY_URL": {
-            "description": "The address of the JHipster Registry",
+        "JHIPSTER_PASSWORD": {
+            "description": "The password for the JHipster Registry",
             "required": "true"
         },
         "MAVEN_CUSTOM_OPTS": {
