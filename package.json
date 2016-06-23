@@ -55,7 +55,7 @@
     "yargs": "4.6.0"
   },
   "engines": {
-    "node": "^4.3"
+    "node": "4.4.5"
   },
   "scripts": {
     "test": "gulp test"
