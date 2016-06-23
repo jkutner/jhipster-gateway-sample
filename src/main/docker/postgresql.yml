@@ -1,0 +1,12 @@
+version: '2'
+services:
+    springonegateway-postgresql:
+        container_name: springonegateway-postgresql
+        image: postgres:9.5.1
+        # volumes:
+        #     - ~/volumes/jhipster/SpringOneGateway/postgresql/:/var/lib/postgresql/
+        environment:
+            - POSTGRES_USER=SpringOneGateway
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
