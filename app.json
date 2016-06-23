@@ -1,0 +1,28 @@
+{
+    "name": "Spring One Demo",
+    "description": "Welcome to Spring One. This is a JHipster microservice demo.",
+    "env": {
+        "JHIPSTER_REGISTRY_URL": {
+            "description": "THe address of the JHipster Registry"
+        },
+        "MAVEN_CUSTOM_OPTS": {
+            "description": "Options for the Maven build.",
+            "value": "-Pprod,heroku -DskipTests"
+        },
+        "NPM_CONFIG_PRODUCTION": {
+            "description": "Install devDependencies",
+            "value": "false"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "https://github.com/jkutner/dyno-metadata-buildpack"
+        },
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "heroku/java"
+        }
+    ]
+}
