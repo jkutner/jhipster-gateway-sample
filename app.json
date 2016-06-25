@@ -11,10 +11,6 @@
             "description": "Options for the Maven build.",
             "value": "-Pprod,heroku -DskipTests"
         },
-        "JAVA_OPTS": {
-            "description": "Runtime options for the JVM.",
-            "value": "-Xmx300m"
-        },
         "NPM_CONFIG_PRODUCTION": {
             "description": "Install devDependencies",
             "value": "false"
