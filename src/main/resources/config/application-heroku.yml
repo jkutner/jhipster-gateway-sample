@@ -19,7 +19,7 @@ eureka:
         prefer-ip-address: false
     client:
         serviceUrl:
-            defaultZone: https://admin:${JHIPSTER_PASSWORD}@spring-one-registry.herokuapp.com/eureka/
+            defaultZone: ${JHIPSTER_REGISTRY_URL}/eureka/
 
 spring:
   datasource:
