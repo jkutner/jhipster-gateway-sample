@@ -7,4 +7,6 @@ Uh oh! The JHipster Registry is not available.
 You can learn how to create your own at:
 https://jhipster.github.io/heroku/
 "
+    msg="Uh oh! The JHipster Registry is not available.<p>You can learn how to create your own at:<p>https://jhipster.github.io/heroku/"
+    ruby -rwebrick -e"s=WEBrick::HTTPServer.new(:Port => $PORT, :DocumentRoot => Dir.pwd); s.mount_proc('/'){|q,r| r.body='${msg}'}; s.start"
 fi
